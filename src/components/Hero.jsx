@@ -44,13 +44,17 @@ export default function Hero() {
 
             {/* Headline */}
             <div className="space-y-3">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-alabaster tracking-tight leading-[1.15]">
-                Computer Information Systems{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-alabaster via-lavender to-dusk">
-                  (CIS)
-                </span>{" "}
-                Undergraduate in Jordan
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-mono uppercase tracking-widest text-lavender font-semibold">
+                  Hello, I'm
+                </span>
+              </div>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-alabaster tracking-tight leading-[1.1]">
+                Odai Maali
               </h1>
+              <h2 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-alabaster via-lavender to-dusk">
+                Computer Information Systems (CIS) Undergraduate in Jordan
+              </h2>
               <p className="text-base sm:text-lg text-lavender max-w-2xl font-normal leading-relaxed">
                 Building the next generation of data-driven systems and web applications.
                 Currently advancing specialized studies in systems analysis, software development,
@@ -156,7 +160,7 @@ export default function Hero() {
                     <div className="w-3 h-3 rounded-full bg-rose-500/80"></div>
                     <div className="w-3 h-3 rounded-full bg-amber-500/80"></div>
                     <div className="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-                    <span className="ml-2 text-xs font-mono text-lavender">cis_student_profile.json</span>
+                    <span className="ml-2 text-xs font-mono text-lavender">odai_maali_profile.json</span>
                   </div>
                   <Sparkles className="w-4 h-4 text-lavender" />
                 </div>
@@ -166,7 +170,10 @@ export default function Hero() {
                   <div className="p-3 rounded-lg bg-ink/70 border border-dusk/40 space-y-1.5">
                     <p className="text-lavender">
                       <span className="text-rose-400">const</span>{" "}
-                      <span className="text-alabaster font-semibold">candidate</span> = &#123;
+                      <span className="text-alabaster font-semibold">developer</span> = &#123;
+                    </p>
+                    <p className="pl-4 text-lavender">
+                      name: <span className="text-emerald-300">"Odai Maali"</span>,
                     </p>
                     <p className="pl-4 text-lavender">
                       discipline: <span className="text-emerald-300">"Computer Information Systems"</span>,

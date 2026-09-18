@@ -54,7 +54,7 @@ export default function Footer() {
         {/* Bottom copyright line */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-lavender/80">
           <p>
-            © {new Date().getFullYear()} CIS Undergraduate. All rights reserved.
+            © {new Date().getFullYear()} Odai Maali · CIS Undergraduate. All rights reserved.
           </p>
           <p className="flex items-center gap-1.5">
             Designed with <span className="text-rose-400">♥</span> in Jordan for modern dark mode web.

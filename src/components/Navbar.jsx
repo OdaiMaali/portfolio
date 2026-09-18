@@ -40,11 +40,11 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col">
             <span className="font-bold text-sm tracking-tight text-alabaster flex items-center gap-1.5">
-              CIS Portfolio
+              Odai Maali
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             </span>
             <span className="text-[11px] text-lavender tracking-wider font-mono">
-              UJ · Aqaba
+              CIS · UJ Aqaba
             </span>
           </div>
         </a>

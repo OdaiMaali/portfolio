@@ -1,6 +1,6 @@
 export const portfolioData = {
   personal: {
-    name: "CIS Developer",
+    name: "Odai Maali",
     title: "Computer Information Systems Undergraduate",
     institution: "The University of Jordan - Aqaba Branch",
     graduationDate: "February 2027",
@@ -175,7 +175,7 @@ export const portfolioData = {
   },
 
   contact: {
-    email: "student.cis@uj.edu.jo",
+    email: "odaimaali.cis@uj.edu.jo",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     location: "The University of Jordan - Aqaba Branch, Jordan",

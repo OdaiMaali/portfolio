@@ -175,7 +175,7 @@ export const portfolioData = {
   },
 
   contact: {
-    email: "odaimaali.cis@uj.edu.jo",
+    email: "odaimaali3@gmail.com",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     location: "The University of Jordan - Aqaba Branch, Jordan",
